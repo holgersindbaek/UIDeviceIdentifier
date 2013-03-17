@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Shows the current device in a string"
   s.homepage     = "https://github.com/holgersindbaek/UIDeviceIdentifier.git"
 
-  s.license      = { :type => 'BSD', :file => 'LICENSE' }
+  s.license      = { :type => 'BSD' }
   s.author       = { "Holger Sindbaek" => "holgersindbaek@gmail.com" }
   s.source       = { 
     :git => "https://github.com/holgersindbaek/UIDeviceIdentifier.git", 
