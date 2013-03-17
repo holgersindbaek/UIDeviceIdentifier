@@ -1,10 +1,17 @@
-Pod::Spec.new do |spec|
-  spec.name         = 'UIDeviceIdentifier'
-  spec.version      = '0.0.1'
-  spec.platform     = :ios, '4.3'
-  spec.license      = 'BSD'
-  spec.source       = { :git => 'https://github.com/holgersindbaek/UIDeviceIdentifier.git', :tag => spec.version.to_s }
-  spec.source_files = 'UIDeviceIdentifier/*.{h,m,c}'
-  spec.requires_arc = true
-  spec.prefix_header_contents = '#import <UIDeviceIdentifier/UIDeviceHardware.h>'
+Pod::Spec.new do |s|
+  s.name         = "UIDeviceIdentifier"
+  s.version      = "0.1"
+  s.summary      = "Shows the current device in a string"
+  s.homepage     = "https://github.com/holgersindbaek/UIDeviceIdentifier.git"
+
+  s.license      = { :type => 'BSD', :file => 'LICENSE' }
+  s.author       = { "Holger Sindbaek" => "holgersindbaek@gmail.com" }
+  s.source       = { 
+    :git => "https://github.com/holgersindbaek/UIDeviceIdentifier.git", 
+    :tag => "0.1"
+  }
+
+  s.platform     = :ios, '4.0'
+  s.source_files = '*.{h,m}'
+  s.requires_arc = true
 end

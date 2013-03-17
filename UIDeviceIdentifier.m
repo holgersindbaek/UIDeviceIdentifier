@@ -5,7 +5,7 @@
 //  https://github.com/squarefrog/UIDeviceIdentifier
 //
 
-#import "UIDeviceHardware.h"
+#import "UIDeviceIdentifier.h"
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
