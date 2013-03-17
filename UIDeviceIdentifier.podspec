@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'BSD', :file => 'LICENSE' }
   s.author       = { "Holger Sindbaek" => "holgersindbaek@gmail.com" }
   s.source       = { 
-    :git => "https://github.com/holgersindbaek/UIDeviceIdentifier.git", 
-    :tag => "0.1"
+    :git => "https://github.com/holgersindbaek/UIDeviceIdentifier.git"
   }
 
   s.platform     = :ios, '4.0'
